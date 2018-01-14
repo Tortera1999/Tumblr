@@ -26,21 +26,19 @@ The following **additional** user stories are implemented:
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. I would like to add an option to filter the images
-2. I would like to add an option to filter share photos
+2. I would like to add an option to share photos
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='https://media.giphy.com/media/3ohc1cS8M0nL8YQAp2/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
-I had trouble implementing the refresh option
+- I had trouble implementing the refresh option
 
 ## License
 
