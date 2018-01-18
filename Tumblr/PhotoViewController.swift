@@ -10,9 +10,14 @@ import UIKit
 
 class PhotoViewController: UIViewController {
 
+    @IBOutlet weak var BigPicView: UIImageView!
+    
+    var image: UIImage?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.BigPicView.image = self.image;
         // Do any additional setup after loading the view.
     }
 

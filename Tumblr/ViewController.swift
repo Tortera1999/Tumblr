@@ -69,11 +69,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        TumblrTableView.deselectRow(at: indexPath, animated: true)
+    }
+    
     
     func refreshControlAction(_ refreshControl: UIRefreshControl) {
         loadPosts()
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! TumblrCell
+        let vc = segue.destination as! PhotoViewController
+        vc.image = cell.PhotosView.image
+        
+        
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
